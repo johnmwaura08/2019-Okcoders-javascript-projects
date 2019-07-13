@@ -24,104 +24,20 @@
 
 
     <script>
-        //         var age = prompt("Users age?");
-        //         /*var day=prompt("Users day of birth?");
-        // */        var name = prompt("Users name?");
-
-        //         /*
-        //                 document.write("Welcome to Javascript everybody"+ '<br>');
-        //                 document.write("<h1>" + name +"</h1>");
-        //                 document.write("<div>Age: "+ (age/3) + "</div>");
-        //                 document.write("<div>Day: " + (day*127) + "</div");
-        //                 document.write("Age* Day: " + (age*day));
-        //                     document.write((4  5*656)||(453-5242));*/
-        //         if (age > 55) {
+        // var words= " It is a far better thing i do";
+        // var upperWords = words.toUpperCase();
+        //  document.write(upperWords);
 
 
-        //             document.write(name + " is old");
-        //         }
+         var age=prompt(" How old is the dog in human years?");
 
-        //         else if (age < 25 ) {
+         function ageConvert(x){
+             
+            x/=7;
+            document.write(" Your dog is " + x + " years old in dog years")
+         }
 
-        //             document.write(name + " is young ")
-        //         }
-        //         else {
-        //             document.write(name + " is just right ");
-
-        //         }
-        // var number =99;
-        // var number = 99;
-        // while (number > 0) {
-        //     document.write("<div>" + number + " bottles of beer on the wall." + number + " bottles of beer on the wall." + "<br>" + " Take one down and pass it around! " + "</div");
-        //     number--;
-        // }
-        // var number = prompt("Count from what?");
-        // // while(number<100){
-        //     for(var i= number; i< 90 && i> 45; i++){
-        //     document.write("Number " + i + "<br>");
-        //     number++;
-        // }
-        // var min= prompt(" What is the minimum value?");
-        // var max= prompt(" What is the maximum value?");
-        // for( var i= max;i > min; i-- ){
-        //     document.write("Number " + i + "<br>");
-
-
-        //this is for counting a number backwards, as seen, the user is asked for input. that is how we utilise for loop ; we set i equals to the max/min number to show where we're counting from
-
-
-        // var cols = prompt(" How many columns to print?");
-
-        // var rows = prompt(" How many rows to print?");
-        // function makeRow() {
-        //     for (var x = 1; x <= rows; x++) {
-        //         document.write("X");
-        //     }
-        // }
-  
-
-        // function findNumberOfCells(){
-        //         return cols * rows
-        // }
-
-        //     for (var i = 1; i <= cols; i++) {
-
-        //         makeRow();
-        //         document.write("<br>");
-        //         }
-
-        //     // function bobsays(){
-        //     //     alert(" Yeah, i said something") //functions are not executed till they are called.
-
-        //     // }
-
-        //     //         bobsays();
-
-
-
-
-        //     //         for(var i=1;i<24;1++){
-        //     //             bobsays()
-        //     //         }
-        //         var totalCells= findNumberOfCells();
-        //             document.write(" With " + rows + " Rows and "+ cols + " columns");
-        //             document.write(" there are" + totalCells);
-        //             document.write(" total cells.")
-
-
-            function bobSays(whatHeSaid, times){
-                for(var i=1;i<= times;i++){
-                document.write("Bob says, " + whatHeSaid);
-                document.write("<br>");
-
-                                                    //isolating your code this wayis good code hygiene
-            }
-                                                }
-            bobSays("Use tabs not spaces", 10);
-            bobSays("Linux Rocks",8);
-            bobSays(25);
-
-
+         ageConvert(age);
     </script>
 
 
